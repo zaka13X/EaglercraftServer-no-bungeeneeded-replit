@@ -1,0 +1,37 @@
+verbose: false
+config-version: 13
+settings:
+  enable-player-collisions: true
+  save-empty-scoreboard-teams: false
+  incoming-packet-spam-threshold: 300
+  use-alternative-luck-formula: false
+  load-permissions-yml-before-plugins: true
+  bungee-online-mode: false
+world-settings:
+  default:
+    keep-spawn-loaded: false
+    auto-save-interval: 6000
+    experience-merge-max-value: 300
+    remove-corrupt-tile-entities: true
+    falling-block-height-nerf: 0
+    nether-ceiling-void-damage: false
+    allow-non-player-entities-on-scoreboards: false
+    container-update-tick-rate: 2
+    parrots-are-silent: false
+    non-player-arrow-despawn-rate: 60
+    creative-arrow-despawn-rate: 60
+    armor-stands-tick: false
+    disable-chest-cat-protections: true
+    hopper:
+      cooldown-when-full: true
+      disable-move-event: true
+    max-entity-collisions: 2
+    despawn-range:
+      soft: 32
+      hard: 128
+    optimize-explosions: true
+    delay-chunk-unloads-by: 10s
+    max-auto-save-chunks-per-tick: 24
+    prevent-moving-into-unloaded-chunks: true
+    anti-xray:
+      enabled: false
